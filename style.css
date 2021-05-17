@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+  background: hsl(0, 0%, 98%);
+}
+section{
+  width: 310px;
+  align-self: center;
+}
+#title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0;
+}
+#titleone{
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+#titletwo{
+  font-weight: 400;
+  color: hsl(234, 12%, 34%);
+}
+#titlethree{
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+}
+.box{
+  width: 310px;
+  height: 220px;
+  border-radius: 7.5px;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+h4{
+  color: hsl(234, 12%, 34%);
+}
+p{
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+  font-weight: 400;
+}
+.supervisor{
+  border-top: 4px solid hsl(180, 62%, 55%);
+  background: white url(icon-supervisor.svg) no-repeat;
+  background-position: 90% 80%;
+}
+.team{
+  border-top: 4px solid hsl(0, 78%, 62%);
+  background: white url(icon-team-builder.svg) no-repeat;
+  background-position: 90% 80%;
+}
+.karma{
+  border-top: 4px solid hsl(34, 97%, 64%);
+  background: white url(icon-karma.svg) no-repeat;
+  background-position: 90% 80%;
+}
+.calculator{
+  border-top: 4px solid hsl(212, 86%, 64%);
+  background: white url(icon-calculator.svg) no-repeat;
+  background-position: 90% 80%;
+}

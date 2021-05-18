@@ -25,8 +25,9 @@ section{
   color: hsl(229, 6%, 66%);
 }
 #titletwo{
-  font-weight: 400;
+  font-weight: 600;
   color: hsl(234, 12%, 34%);
+  margin-bottom: 15px;
 }
 #titlethree{
   font-weight: 400;
@@ -44,6 +45,7 @@ section{
 }
 h4{
   color: hsl(234, 12%, 34%);
+  font-size: 1.17em;
 }
 p{
   color: hsl(229, 6%, 66%);
@@ -69,4 +71,18 @@ p{
   border-top: 4px solid hsl(212, 86%, 64%);
   background: white url(icon-calculator.svg) no-repeat;
   background-position: 90% 80%;
+}
+@media only screen and (min-width: 100px){
+  body{
+    height: 100vh;
+  }
+  section{
+    width: 1200px;
+  }
+  .allboxes{
+    display: flex;
+    height: 530px;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
